@@ -6,14 +6,262 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Dia</title>
+    <title>Air</title>
     <link
       rel="stylesheet"
       href="./styles/main.scss"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>Dia</h1>
+    <header class="header">
+      <div class="header__wrapper">
+        <div class="header__top">
+          <div class="header__left-side">
+            <a href="#" class="header__logo">
+              <img
+                src="./images/header/logo.png"
+                alt="logo"
+                class="logo">
+            </a>
+
+            <a href="#" class="header__menu">
+              <img
+              src="./images/header/menu.png"
+              alt="menu icon"
+              class="icon icon__menu"
+            >
+            </a>
+
+            <nav class="nav header__nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#" class="nav__link">About us</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Services</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Testimonials</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Contact Us</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <p class="header__hire">
+            Hire us
+          </p>
+        </div>
+
+        <div class="header__content">
+          <div class="header__bottom">
+            <h1 class="header__title">Strategic Agency</h1>
+            <p class="header__description">We believe in the power of bold ideas that can solve business challenges.</p>
+
+            <a href="#" class="header__link">Learn more</a>
+          </div>
+
+          <div class="header__slider">
+            <div class="slider">
+              <div class="slider__wrapper">
+                <img
+                  src="./images/header/header__bottom.png"
+                  alt="slider img"
+                  class="slider__img"
+                >
+
+                <div class="slider__content">
+                  <div class="slider__nav">
+                    <img src="./images/icon/arrow-left.png" alt="slider left">
+                    <img src="./images/icon/arrow-right.png" alt="slider right">
+                  </div>
+
+                  <div class="slider__info">
+                    <h1 class="slider__title">INtro</h1>
+
+                    <p class="slider__description">By the same illusion which lifts the horizon.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="content">
+      <div class="content__wrapper">
+        <section class="section about-us about-us__wrapper">
+          <article class="about-us__content">
+            <h1 class="section__title">Who we are</h1>
+            <p class="section__description">We embrace a strategic approach to creative ideas. We are interested in people and human relationships. This is the main thing you need to know about us. We believe in the power of bold ideas that can solve business challenges.</p>
+          </article>
+        </section>
+
+        <section class="section our-expertise our-expertise__wrapper">
+          <h1 class="our-expertise__header-title">Our expertise</h1>
+
+          <div class="our-expertise__content">
+            <article class="our-expertise__item">
+              <img
+                src="./images/Our expertise/img-03.png"
+                alt="img"
+                class="our-expertise__img"
+              >
+              <h2 class="our-expertise__title">Branding</h2>
+              <p class="our-expertise__description">We create additional value for companies, products, services as well as verbal and visual ways to deliver it to the audience.</p>
+            </article>
+
+            <article class="our-expertise__item">
+              <img
+                src="./images/Our expertise/img-02.png"
+                alt="img"
+                class="our-expertise__img"
+              >
+              <h2 class="our-expertise__title">Communication</h2>
+              <p class="our-expertise__description">We strive to create communications that can increase media performance. We use everything — words, meanings, stories, art, movies.</p>
+            </article>
+
+            <article class="our-expertise__item">
+              <img
+                src="./images/Our expertise/img-01.png"
+                alt="img"
+                class="our-expertise__img"
+              >
+              <h2 class="our-expertise__title">Strategy</h2>
+              <p class="our-expertise__description">We create business growth strategies, from the moment of its birth to the achievement of the necessary business indicators.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section services services__wrapper">
+          <div class="services__header">
+            <div>
+              <p class="services__title-small">Services</p>
+              <h2 class="services__title">Air is a full service creative agency</h2>
+              <p class="services__description">
+                Deep analytics, strong strategy and bright creative ideas.
+                <br><br>
+                We are sure that first-rate job is possible only if all three components are united.
+              </p>
+            </div>
+          </div>
+
+          <div class="services__body">
+            <article class="services__item cards cards__wrapper">
+              <div class="cards__content">
+                <div class="cards__number">
+                  <div class="cards__number-bg"></div>
+                  <span class="cards__number-item">001</span>
+                </div>
+                <p class="cards__description">
+                  Brand Development<br>
+                  Copywriting<br>
+                  Logo & Webite Design<br>
+                  Packaging
+                </p>
+                <a href="#" class="cards__link">
+                  <div class="circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="circle__arrow">
+                      <path
+                        d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </div>
+                  Learn more
+                </a>
+              </div>
+            </article>
+
+            <article class="services__item cards cards__wrapper cards__wrapper--translate">
+              <div class="cards__content">
+                <div class="cards__number">
+                  <div class="cards__number-bg"></div>
+                  <span class="cards__number-item">002</span>
+                </div>
+                <p class="cards__description">
+                  Сontent Production<br>
+                  Graphic Design<br>
+                  Video Production<br>
+                  Post Production
+                </p>
+                <a href="#" class="cards__link">
+                  <div class="circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="circle__arrow">
+                      <path
+                        d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </div>
+                  Learn more
+                </a>
+              </div>
+            </article>
+
+            <article class="services__item cards cards__wrapper">
+              <div class="cards__content">
+                <div class="cards__number">
+                  <div class="cards__number-bg"></div>
+                  <span class="cards__number-item">003</span>
+                </div>
+                <p class="cards__description">
+                  Marketing Strategy<br>
+                  Email Marketing<br>
+                  Paid Advertising<br>
+                  Blog Content & SEO
+                </p>
+                <a href="#" class="cards__link">
+                  <div class="circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="circle__arrow">
+                      <path
+                        d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </div>
+                  Learn more
+                </a>
+              </div>
+            </article>
+
+            <article class="services__item cards cards__wrapper cards__wrapper--translate">
+              <div class="cards__content">
+                <div class="cards__number">
+                  <div class="cards__number-bg"></div>
+                  <span class="cards__number-item">004</span>
+                </div>
+                <p class="cards__description">
+                  Digital Communications<br>
+                  Influencer Marketing<br>
+                  Product Placements<br>
+                  Strategic Partnerships
+                </p>
+                <a href="#" class="cards__link">
+                  <div class="circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="circle__arrow">
+                      <path
+                        d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </div>
+                  Learn more
+                </a>
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+
     <script src="scripts/main.js"></script>
   </body>
 </html>

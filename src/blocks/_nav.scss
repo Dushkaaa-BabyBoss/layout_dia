@@ -1,0 +1,24 @@
+.nav {
+
+  &__list {
+    list-style: none;
+    display: flex;
+    gap: 48px;
+
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 3px;
+  }
+
+  &__link {
+    text-transform: uppercase;
+    color: $color-light;
+  }
+
+  display: none;
+
+  @include on-small-desctop {
+    display: block;
+  }
+}
