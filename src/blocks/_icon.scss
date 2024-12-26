@@ -1,9 +1,0 @@
-.icon {
-  display: block;
-
-  &__menu {
-    @include on-small-desctop {
-      display: none;
-    }
-  }
-}
